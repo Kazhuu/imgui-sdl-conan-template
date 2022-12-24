@@ -1,4 +1,4 @@
-# imgui-sdl-template
+# imgui-sdl-conan-template
 
 IMGUI + SDL2 + OpenGL 3 project template with CMake and Conan package
 manager for Windows and Linux machines.
