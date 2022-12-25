@@ -70,13 +70,12 @@ cmake --build .
 ### Linux
 
 To build run following commands. If you want release build add
-`-DCMAKE_BUILD_TYPE=Release` to first CMake command. Notice that
-`--build=missing` flag with Conan. This is to tell Conan to compile sources
-locally if fetching prebuilt binaries fails.
+`-DCMAKE_BUILD_TYPE=Release` to first CMake command.  Notice `-b` flag, this
+will tell Conan to compile IMGUI locally.
 
 ```shell
 mkdir build && cd build
-conan install .. --build=missing
+conan install .. -b
 cmake ..
 cmake --build .
 ```
