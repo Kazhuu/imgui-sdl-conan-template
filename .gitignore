@@ -3,3 +3,4 @@ imgui.ini
 src/bindings
 .cache
 .vscode
+.vs
